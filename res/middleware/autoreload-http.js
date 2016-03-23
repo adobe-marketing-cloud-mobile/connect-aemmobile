@@ -3,11 +3,11 @@
 // Reload the app if server detects local change
 //
 (function() {
-	var pathComponents = document.location.pathname.split('/');
-	var reloadKey = pathComponents.length > 1 ? pathComponents[1] : "default";
-	// Be careful, /__api__/autoreload get searched and swapped out with /__api__/autoreload?appId=1234 in update.js
-	var autoReloadPath = '/__api__/autoreload';
-	var querySeparator = autoReloadPath.indexOf('?') > 0 ? '&' : '?';
+    var pathComponents = document.location.pathname.split('/');
+    var reloadKey = pathComponents.length > 1 ? pathComponents[1] : "default";
+    // Be careful, /__api__/autoreload get searched and swapped out with /__api__/autoreload?appId=1234 in update.js
+    var autoReloadPath = '/__api__/autoreload';
+    var querySeparator = autoReloadPath.indexOf('?') > 0 ? '&' : '?';
     var url = 'http://' + document.location.host + autoReloadPath + querySeparator + 'reloadkey=' + reloadKey;
 	
     function postStatus() {
