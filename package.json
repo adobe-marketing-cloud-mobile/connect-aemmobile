@@ -1,17 +1,17 @@
 {
-  "name": "connect-phonegap",
-  "description": "Connect middleware to serve a PhoneGap app.",
-  "version": "0.20.4",
-  "homepage": "https://github.com/phonegap/connect-phonegap",
+  "name": "connect-aemmobile",
+  "description": "Connect middleware to serve an AEM Mobile app.  Based on connect-phonegap.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/adobe-marketing-cloud-mobile/connect-aemmobile",
   "repository": {
     "type": "git",
-    "url": "git@github.com:phonegap/connect-phonegap.git"
+    "url": "git@github.com:adobe-marketing-cloud-mobile/connect-aemmobile"
   },
   "keywords": [
     "connect",
     "express",
     "middleware",
-    "phonegap"
+    "aemm"
   ],
   "preferGlobal": "false",
   "main": "./lib/index.js",
